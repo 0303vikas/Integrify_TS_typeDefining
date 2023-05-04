@@ -1,6 +1,6 @@
 import axios, {AxiosError} from 'axios'
-import BisCompanyDetails from "./types/apiWithBusinessId"
-import BisCompany from "./types/apiFetchAll"
+import BisCompanyDetails from "./types/typeFetchOne"
+import BisCompany from "./types/typeFetchAll"
 
 const getData = async<T>(apiEndpoint: string) => {
     try{
