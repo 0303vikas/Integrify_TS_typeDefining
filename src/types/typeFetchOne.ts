@@ -1,4 +1,15 @@
 interface BisCompanyDetails {
+    type: any,
+    version: any,
+    totalResults: any,
+    resultsFrom: any,
+    previousResultsUri: any,
+    nextResultsUri: any,
+    exceptionNoticeUri: any,
+    results: BisCompanyDetailsResults[]    
+}
+
+interface BisCompanyDetailsResults {
     names: BisCompanyName[]
     auxiliaryNames?: BisCompanyName[]
     addresses?: BisAddress[]
