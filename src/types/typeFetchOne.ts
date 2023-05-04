@@ -1,11 +1,11 @@
 interface BisCompanyDetails {
-    type: any,
-    version: any,
-    totalResults: any,
-    resultsFrom: any,
-    previousResultsUri: any,
-    nextResultsUri: any,
-    exceptionNoticeUri: any,
+    type?: string,
+    version?: string,
+    totalResults?: number,
+    resultsFrom?: number,
+    previousResultsUri?: null,
+    nextResultsUri?: null,
+    exceptionNoticeUri?: null,
     results: BisCompanyDetailsResults[]    
 }
 
